@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: auto;
+    font-size: 10px;
+    margin: 10px;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+div{
+    margin-top: 2px;
+    text-align: center;
+}
+.container{
+    width: auto;
+}
+.Header{ 
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    color: aliceblue;
+    
+    
+}
+.navbar{
+    background-color: rgb(155, 154, 154);
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 1px 1px #525151;    
+}
+.MainContentArea{
+    background-color: rgb(179, 178, 178);
+    height: 650px;
+    
+}
+footer{
+    margin-top: 10px;
+    height: 100px;
+    
+    margin: 10px;
+    padding: 10px;
+}
+.logo{
+    float: left;
+}
+
+.footerColumns{
+    display: flex;
+}
+.footerColumn{
+    flex: 50%;
+    margin: 10px;
+}
+footer,Header{
+    background-color: rgb(147, 147, 147);
+    padding: 10px;
+}
+
+
+.navbarList{
+    height: 43px;
+    background-color: rgb(193, 193, 193);
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.wrapper{
+    height: 110px;
+}
+
+.navbarList {
+    width: 40%;
+}
+.navbarList:hover{
+    background-color: rgb(161, 160, 160);
+}
+.post{
+    background-color:rgb(193, 193, 193) ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.post.img{
+    margin: 20px;
+}
+.logo{
+    
+    
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px 1px #b2b2b2;
+}
+.kar1{
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 1px 1px #525151;
+
+}
+h3{
+    margin: 10px;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    margin: 10px;
+    font-size: 12px;
+}
+body{
+    background-color:rgb(193, 193, 193)  ;
+}
+h5{
+    margin: 10px;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 2px;
+}
+h2{
+    margin: 10px;
+    font-size: 12px;
+}
+h6{
+    font-size: 100px;
+    text-shadow: black;
+}
+
+
+
+
+/*продуктс*/
+
+.navbar ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+.navbar >ul::after{
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content:" ";
+
+}
+.navbar ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+    background-color: rgb(155, 154, 154);
+}
+.navbar ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size:14px ;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration: uppercase;
+    height: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 123px;
+    background-color: rgb(155, 154, 154);
+}
+
+.navbar ul li:hover ul{
+    display: block;
+}
+
+ul li:hover{
+    background-color: #d4d4d4;
+}
+
+.navbar ul li ul li{
+    float: none;
+    width: 100%;
+}
+
+.navbar ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+    color: white;
+}
+
+.navbar ul li ul li:first-child a{
+    border-top: 0px;
+}
+.nav
+
+
+
+
